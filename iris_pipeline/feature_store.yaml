@@ -1,0 +1,11 @@
+project: iris_pipeline
+registry: data/registry.db
+provider: gcp
+entity_key_serialization_version: 3
+
+offline_store:
+  type: bigquery
+  
+online_store:
+  type: sqlite
+  path: data/online.db
