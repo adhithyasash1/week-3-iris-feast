@@ -1,3 +1,0 @@
-feast[gcp]
-pandas
-scikit-learn
